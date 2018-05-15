@@ -1,0 +1,145 @@
+.wrapper {
+	width: 100%;
+}
+
+nav, p, .centered,  {
+  font-family: 'Gothic A1';
+}
+
+header {
+  padding-top: 70px;
+}
+
+.logo {
+    width: 20%;
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  padding: 19px;
+  color: white;
+}
+
+nav {
+  background-color: #ddc6a3;
+  padding: 10px;
+  text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: #7c9092;
+    display: inline;
+}
+
+a:hover {
+    color: #6a7e80;
+}
+
+a:visited {
+    color: #637070;
+}
+
+.open {
+  width: 100%;
+}
+
+.pimg {
+  width: 20%;
+}
+
+.floatin-box{
+  display: inline-block;
+  margin: 60px;
+  transition: 2s;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* checkoutform */
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  padding: 5px 20px 15px 20px;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #7c9092;
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #7c9092;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 30%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #6a7e80;
+}
+
+span.price {
+  float: right;
+  color: grey;
+  width: 50%;
+}
+/* checkoutform */
+
+footer {
+    background-color: #ddc6a3;
+    padding: 10px;
+    text-align: right; 
+}
